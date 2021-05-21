@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:hsl(257, 40%, 49%);
+}
+
+.container {
+    height: 100vh;
+    background-image: url(./images/bg-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    padding: 5rem;
+}
+
+.showcase {
+    padding: 2rem 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.left {
+    width: 50%;
+}
+
+.left img {
+    width: 90%;
+}
+
+.right {
+    padding-right: 3rem;
+    width: 50%;
+    justify-self: center;
+}
+
+.right h1 {
+    width: 80%;
+    padding-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.right p {
+    line-height: 30px;
+    width: 83%;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    text-decoration: none;
+    background: #fff;
+    padding: .6em 3.2em;
+    border-radius: 50px;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    color: #fff;
+    background: hsl(300, 69%, 71%);
+}
+
+footer {
+    height: auto;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding-right: 4rem;
+}
+
+footer ul {
+    display: flex;
+    float: right;
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li {
+    margin: 0 0.5rem;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+footer ul li:hover {
+    background: hsl(300, 69%, 71%);
+
+}
+
+footer ul li i {
+  transform: translateY(40%);
+}
